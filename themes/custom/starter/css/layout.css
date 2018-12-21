@@ -1,0 +1,61 @@
+/**
+ * @file
+ * Presentational styles for Drupal stark theme layout.
+ *
+ * It is left empty for testing purposes.
+ *
+ * @see https://www.drupal.org/project/drupal/issues/2349711
+ */
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #FCFCFC;
+}
+
+/* GENERIC STYLES*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+}
+
+header, main, footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+header nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+header nav ul li,
+header nav ul li a{
+  display: inline-block;
+}
+header nav ul li a {
+  padding: 0.5rem 1rem;
+  font-family: 'Oswald', sans-serif;
+  color: #2d2d2d;
+  font-size: 1rem;
+}
+
+/* MAIN LAYOUT */
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+main .layout-sidebar-first {
+  flex: 1 1 20%;
+  padding-left: 1rem;
+}
+
+main .layout-content {
+  flex: 1 1 80%;
+}
