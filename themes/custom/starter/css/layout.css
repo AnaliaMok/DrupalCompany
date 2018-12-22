@@ -68,6 +68,10 @@ main .layout-content {
 footer {
   margin-top: 1.5rem;
   padding: 1.5rem 0;
+  text-align: center;
+}
+footer ul {
+  list-style-type: none;
 }
 
 /* =================== BLOCKS =========================== */
