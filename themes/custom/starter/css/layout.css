@@ -65,6 +65,11 @@ main .layout-content {
   margin-left: 3rem;
 }
 
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0;
+}
+
 /* =================== BLOCKS =========================== */
 
 /* Starter Block -- Company Branding */
