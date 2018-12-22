@@ -8,7 +8,7 @@
  */
 
 html, body {
-  width: 100%;
+  /* width: 100%; */
   margin: 0;
   padding: 0;
   font-family: 'Oswald', sans-serif;
@@ -22,8 +22,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-header, main, footer {
+header,
+section.featured,
+main,
+footer {
   width: 80%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -47,15 +51,16 @@ header nav ul li a {
 /* MAIN LAYOUT */
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 2rem;
 }
 
 main .layout-sidebar-first {
   flex: 1 1 20%;
-  padding-left: 1rem;
 }
 
 main .layout-content {
   flex: 1 1 80%;
+  max-width: 80%;
+  margin-left: 3rem;
 }

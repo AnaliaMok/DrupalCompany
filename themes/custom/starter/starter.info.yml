@@ -9,6 +9,7 @@ libraries:
 base theme: false
 regions:
   header: Header
+  featured: 'Featured Top'
   content: Content
   sidebar_first: 'Sidebar First'
   footer: 'Footer First'
