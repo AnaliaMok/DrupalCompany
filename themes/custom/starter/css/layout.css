@@ -64,3 +64,28 @@ main .layout-content {
   max-width: 80%;
   margin-left: 3rem;
 }
+
+/* =================== BLOCKS =========================== */
+
+/* Starter Block -- Company Branding */
+#block-starter-branding {
+  display: flex;
+  align-items: center;
+}
+
+#block-starter-branding a:last-child {
+  margin-left: 1rem;
+  color: #2D2D2D;
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Hero Block */
+#block-herofrontpage img{
+  display: inline-block;
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
